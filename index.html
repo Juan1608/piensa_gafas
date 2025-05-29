@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - GafIA</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .logo {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .logo span {
+      color: #1abc9c;
+    }
+
+    .login-box {
+      background-color: #1abc9c;
+      padding: 30px 20px;
+      border-radius: 25px;
+      width: 260px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .login-box input {
+      background: none;
+      border: none;
+      border-bottom: 2px solid white;
+      width: 100%;
+      padding: 10px;
+      color: white;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    .login-box input::placeholder {
+      color: white;
+    }
+
+    .button {
+      width: 200px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 10px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .login-btn {
+      background-color: #6e6e6e;
+      color: white;
+      border: none;
+    }
+
+    .create-btn {
+      background-color: white;
+      color: #1abc9c;
+      border: 2px solid #1abc9c;
+    }
+
+    .create-btn:hover {
+      background-color: #1abc9c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">Gaf<span>IA</span></div>
+
+  <div class="login-box">
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+  </div>
+
+  <button class="button login-btn">Acceder</button>
+  <button class="button create-btn">Crear cuenta</button>
+
+</body>
+</html>
